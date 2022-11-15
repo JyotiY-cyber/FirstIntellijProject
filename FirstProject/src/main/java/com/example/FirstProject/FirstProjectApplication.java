@@ -12,6 +12,7 @@ public class FirstProjectApplication {
 		//System.out.println("welcome to Spring boot");
 		Employee emp=context.getBean(Employee);
 		System.out.println(emp.getEid());
+		emp.show(); //calling Employee class method.
 
 	}
 
