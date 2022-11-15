@@ -8,9 +8,6 @@
     <title>Document</title>
 </head>
 <body>
-    <form action "addEmployee">
-        <input type="text" name=eid></br>
-        <input type="text" name=ename></br>
-        <input type=submit></br>
+    
 </body>
 </html>
