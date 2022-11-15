@@ -8,8 +8,11 @@ public class FirstProjectApplication {
 
 	public static void main(String[] args) {
 
-		SpringApplication.run(FirstProjectApplication.class, args);
-		System.out.println("welcome to Spring boot");
+	ConfigurableApplicationContext context=SpringApplication.run(FirstProjectApplication.class, args);
+		//System.out.println("welcome to Spring boot");
+		Employee emp=context.getBean(Employee);
+		System.out.println(emp.getEid());
+
 	}
 
 }
