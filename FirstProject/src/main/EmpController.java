@@ -6,6 +6,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 
 
+
 @RestController // add jasper dependancy in pom.xml
 public class EmpController{
 @Autowired
